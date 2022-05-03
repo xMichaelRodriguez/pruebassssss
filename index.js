@@ -13,8 +13,8 @@ function onSubmit(e) {
   const result = document.getElementById('resultado');
 
   result.innerHTML = `
-  <p>Area = ${area}</p>
-  <p>Perimetro = ${perimetro}</p>
+  <p>Area ≈ ${area}</p>
+  <p>Perimetro ≈ ${perimetro}</p>
   `;
 }
 
